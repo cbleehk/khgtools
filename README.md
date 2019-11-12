@@ -19,7 +19,12 @@ Tools for fetching data &amp; controlling KH Guardian
 - just to offset errors that could happen when sometimes we see negative dKH consumption
 
 ## Init
+- You need node https://nodejs.org/en/
+- Run these after node is installed:
+  - npm init
+  - npm install
 - Enter your IP and password into khgtools.js
+- Now you can run get_kh.js (perhaps update the script to run degas instead or you'll wait for 10min for get kh to finish)
 
 ### Auto Populate Google Spreadsheet
 - acquire a google cloud API credentials.json
